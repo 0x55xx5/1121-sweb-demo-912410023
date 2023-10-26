@@ -20,7 +20,7 @@ function showdemo(week) {
             p.innerHTML = `<iframe src="./W06_23/index.html" width="100%" height="100%" />`;
          break;        
         case 7:
-        
+            p.innerHTML = `<iframe src="./index.html" width="100%" height="100%" />`;
          break;
     }
 }
