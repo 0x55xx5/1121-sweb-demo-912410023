@@ -7,20 +7,20 @@ function showdemo(week) {
          break;
         
         case 3:
-            p.innerHTML = `<iframe src="./W03_23/index.html" width="100%" height="100%" />`;
+            p.innerHTML = `<iframe src="../demo/W03_23/index.html" width="100%" height="100%" />`;
          break;
         case 4:
-            p.innerHTML = `<iframe src="./W04_23/index.html" width="100%" height="100%" />`;
+            p.innerHTML = `<iframe src="../demo/W04_23/index.html" width="100%" height="100%" />`;
          break;
         
         case 5:
-            p.innerHTML = `<iframe src="./W05_23/index.html" width="100%" height="100%" />`;
+            p.innerHTML = `<iframe src="../demo/W05_23/index.html" width="100%" height="100%" />`;
          break;
         case 6:
-            p.innerHTML = `<iframe src="./W06_23/index.html" width="100%" height="100%" />`;
+            p.innerHTML = `<iframe src="../demo/W06_23/index.html" width="100%" height="100%" />`;
          break;        
         case 7:
-            p.innerHTML = `<iframe src="./index.html" width="100%" height="100%" />`;
+            p.innerHTML = `<iframe src="../demo/index.html" width="100%" height="100%" />`;
          break;
     }
 }
