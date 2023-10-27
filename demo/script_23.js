@@ -18,8 +18,11 @@ function showdemo(week) {
          break;
         case 6:
             p.innerHTML = `<iframe src="../demo/w06_23/index.html" width="100%" height="100%" />`;
+         break;  
+         case 7:
+            p.innerHTML = `<iframe src="../demo/w07_23/index.html" width="100%" height="100%" />`;
          break;        
-        case 7:
+        case 8:
             p.innerHTML = `<iframe src="../demo/index.html" width="100%" height="100%" />`;
          break;
     }
