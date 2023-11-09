@@ -386,3 +386,64 @@ p {
 .p2-2 .btn-block {
   width: 100%;
 }
+
+
+
+/*
+===============
+Navbar
+===============
+*/
+
+.mid1_nav {
+  background-color: var(--clr-primary-10);
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--clr-grey-3);
+}
+
+.mid1_nav-center {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.mid1_nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.show-mid1-answer {
+  width: 100vw;
+  height: calc(100vh - 4rem);
+}
+
+.mid1_nav-header {
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border: transparent;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}

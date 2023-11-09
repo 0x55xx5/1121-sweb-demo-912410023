@@ -1,0 +1,39 @@
+.person {
+    display: flex;
+    align-items: center;
+  }
+  
+  .person .img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .person div {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  h4 {
+    letter-spacing:normal;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+p {
+    margin-bottom: 2.25rem;
+}
+  
