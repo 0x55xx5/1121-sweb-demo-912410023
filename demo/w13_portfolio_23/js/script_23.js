@@ -31,3 +31,5 @@ closeBtn.addEventListener('click', function () {
 
 });
 
+const date = document.querySelector('#date');
+date.innerHTML=(new Date()).getFullYear();
