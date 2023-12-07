@@ -3,4 +3,4 @@
   git config --global user.name "912410023"
   git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-10-18"
 
-  sass --watch portfolio_23/scss/:portfolio_23/css/
+  sass --watch w13_portfolio_23/scss/:w13_portfolio_23/css/
