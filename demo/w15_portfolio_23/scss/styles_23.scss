@@ -254,7 +254,7 @@ Hero
         .project{
             position: relative;
             margin-bottom: 2rem;
-            background-color: var(--clr-primary-5);
+           background-color: var(--clr-primary-5);
             
             &::after{
                 content: '';
@@ -276,7 +276,7 @@ Hero
 
             &-img{
                 object-fit: cover;
-                height: 16rem;
+                height:100%;
                 border-radius: var(--radius);
                 transition: var(--transition);
             }
@@ -302,8 +302,54 @@ Hero
         }
     }
 }
+//RWD
+@media screen and (min-width:676px) {
+    .projects{
+        &-center{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 2rem;
 
-//
+        }
+    }
+}
+@media screen and (min-width:992px) {
+    .projects{
+        &-center{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            column-gap: 2rem;
+            
+        }
+    }
+}
+@media screen and (min-width:1170px) {
+    .projects{
+        &-center{
+            display: grid;
+            grid-template-rows: 18rem 18rem;
+            gap: 1.1rem;
+            grid-template-areas: 
+           "a b b"
+           "a c d"
+          ;
+        }
+       
+  
+        .project-1{ grid-area: a;}
+        .project-2{ grid-area: b;}
+        .project-3{ grid-area: c;}
+        .project-4{ grid-area: d;}
+        .project-img{
+            height: 100%;
+            width: 100%;
+        }
+        .project{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
 
 .social-icons{
     display: grid;
