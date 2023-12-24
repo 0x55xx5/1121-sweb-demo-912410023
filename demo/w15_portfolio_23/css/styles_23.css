@@ -421,6 +421,53 @@ Hero
 }
 .projects .section-title {
   text-align: center;
+  margin-bottom: 1.9rem;
+}
+.projects .projects-center .project {
+  position: relative;
+  margin-bottom: 2rem;
+  background-color: var(--clr-primary-5);
+}
+.projects .projects-center .project::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 0.25rem solid var(--clr-white);
+  transition: var(--transition);
+  opacity: 0;
+  border-radius: var(--radius);
+}
+.projects .projects-center .project:hover::after {
+  opacity: 1;
+  transform: scale(85%);
+}
+.projects .projects-center .project-img {
+  object-fit: cover;
+  height: 16rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+.projects .projects-center .project-info {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%, -50%);
+  color: blanchedalmond;
+  opacity: 0;
+  transition: var(--transition);
+}
+.projects .projects-center .project-info p {
+  color: blanchedalmond;
+}
+.projects .projects-center .project:hover .project-info {
+  opacity: 1;
+}
+.projects .projects-center .project:hover .project-img {
+  opacity: 0.6;
 }
 
 .social-icons {
