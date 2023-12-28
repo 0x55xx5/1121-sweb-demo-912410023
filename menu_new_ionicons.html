@@ -9,6 +9,7 @@
 	<title>Responsive Mega Menu Example</title>
 	<link rel="stylesheet" type="text/css" href="./css/reset.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/mm.css">
+	
 		<style>
 			.show-classdemo {
 				width: 100%;
@@ -17,7 +18,7 @@
 			}
 			
 			</style>
-			<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>	
+			<!-- <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>	 -->
 </head>
 
 <body>
@@ -33,7 +34,7 @@
 					<div class="overlay"></div>
 					<nav class="menu">
 						<div class="menu-mobile-header">
-							
+						
 							<button type="button" class="menu-mobile-arrow"><ion-icon name="arrow-back-outline"></ion-icon></button>
 							<div class="menu-mobile-title"></div>
 							<button type="button" class="menu-mobile-close"><ion-icon name="close-outline"></ion-icon></button>
@@ -200,8 +201,9 @@
 		</div>
 	</main>
 
-
-	<script src="./js/mmscript.js" defer></script>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<script src="./js/mm7script.js" defer></script>
 	<script src="./js/megamenu.js" defer></script>
 
 </body>
