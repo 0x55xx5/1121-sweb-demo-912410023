@@ -206,6 +206,46 @@ p {
     width: 95vw;
   }
 }
+.profile .card {
+  border: 2px solid transparent;
+  max-width: 340px;
+  background-color: azure;
+  padding: 0 0 60px 0;
+  margin: 32px auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.profile .card1 {
+  border-color: aqua;
+}
+.profile img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.profile .card_title {
+  margin: 1rem;
+  color: #999;
+}
+.profile p {
+  color: rgba(59, 12, 12, 0.89);
+}
+.profile .contact_info {
+  justify-content: space-evenly;
+  display: flex;
+}
+.profile .contact_info .left_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profile .contact_info .right_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 /*
 =============== 
 Navbar
