@@ -1,0 +1,123 @@
+@use 'global_xx';
+
+/*
+=============== 
+Navbar
+===============
+*/
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-primary-10);
+    height: 4rem;
+
+    &-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    &-links {
+        display: none;
+    }
+
+    &-btn {
+        position: absolute;
+        right: 1.5rem;
+        font-size: 2rem;
+        color: var(--clr-primary-5);
+        background-color: transparent;
+        border-color: transparent;
+        cursor: pointer;
+    }
+
+}
+
+.navbar-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: var(--light-shadow);
+    z-index: 5;
+  }
+
+@media screen and (min-width: 768px) {
+    .nav {
+        &-links {
+            display: flex;
+            gap: 1.5rem;
+            position: absolute;
+            right: 3rem;
+
+            li a {
+                color: var(--clr-grey-5);
+
+                &:hover {
+                    color: var(--clr-primary-5);
+                    border-bottom: 2px solid rgba(133,26,26,0.5);
+                }
+            }
+        }
+
+        &-btn {
+            display: none;
+        }
+    }
+}
+
+/*
+=============== 
+Sidebar
+===============
+*/
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-grey-10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition);
+  transform: translateX(-100%);
+
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background-color: transparent;
+    border-color: transparent;
+    color: #bb2525;
+    cursor: pointer;
+
+    &:hover {
+        color: #e66b6b;
+    }
+
+  }
+
+  &-links {
+    text-align: center;
+
+    a {
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: var(--clr-grey-5);
+        letter-spacing: var(--spacing);
+    }
+  }
+
+}
+
+.show-sidebar {
+    transform: translateX(0);
+}
