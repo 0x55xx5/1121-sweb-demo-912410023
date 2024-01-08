@@ -6,6 +6,7 @@
   position: relative;
   top: 100px;
   background: #222;
+  justify-content: space-between;
 }
 
 .b1 {
