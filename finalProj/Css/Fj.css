@@ -55,7 +55,8 @@
     top: 620px;
   }
   .ad {
-    top: 620px;
+    top:660px;
+    visibility: hidden;
   }
 }
 
