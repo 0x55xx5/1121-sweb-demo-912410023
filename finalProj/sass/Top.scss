@@ -309,111 +309,15 @@
 
 @media (max-width: 450px) {
   .auto {
-    top: 740px;
+    top: 760px;
   }
+  .topb .topbr{
+    visibility: hidden;
+    z-index: -1;
+  }
+
 }
-@media (min-width: 1180px) {
-  .topba {
-    order: 1;
-    background-image: url(../Img/4.png);
-    background-size: contain;
-  }
-  .topbl {
-    order: 2;
-  }
-  .topbr {
-    order: 3;
-  }
-  .auto1 {
-    width: 902px;
-  }
-  @keyframes move {
-    0% {
-      clip-path: circle(4% at 39% 55%);
-    }
-    50% {
-      clip-path: circle(4% at 65% 65%);
-    }
-    100% {
-      clip-path: circle(4% at 39% 55%);
-    }
-  }
-}
-@media (max-width: 590px) {
-  .topbl > div a {
-    font-size: 16px;
-  }
-  .bqsy p {
-    font-size: 16px;
-    position: relative;
-    top: 50px;
-    text-align: center;
-  }
-  .bqsy span {
-    font-size: 16px;
-    position: relative;
-    display: block;
-    top: 70px;
-    text-align: center;
-  }
-  .bqsy i {
-    font-size: 30px;
-    position: relative;
-    display: block;
-    top: 90px;
-    text-align: center;
-  }
-}
-@media (max-width: 590px) {
-  .bz:hover li {
-    width: 15%;
-  }
-  .bz li:hover {
-    width: 170px;
-  }
-}
-@media (max-width: 1180px) {
-  .auto {
-    width: 100%;
-  }
-}
-@media (max-width: 945px) {
-  .bq {
-    top: 180px;
-  }
-}
-@media (max-width: 800px) {
-  .btow {
-    height: 800px;
-  }
-  .bq {
-    top: 50px;
-  }
-  .wz {
-    width: 100%;
-    top: 50px;
-    padding: 10px;
-  }
-}
-@media (max-width: 645px) {
-  .qiu {
-    width: 280px;
-    height: 280px;
-  }
-  .qiu::after {
-    width: 280px;
-    height: 280px;
-  }
-  .qiu::before {
-    width: 280px;
-    height: 280px;
-  }
-  .content {
-    width: 220px;
-    height: 250px;
-    top: 48px;
-  }
-}
+
 @media (max-width: 580px) {
   .btow {
     height: 830px;
@@ -455,3 +359,109 @@
     font-size: 13px;
   }
 }
+@media (max-width: 590px) {
+  .topbl > div a {
+    font-size: 16px;
+  }
+  .bqsy p {
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+  }
+  .bqsy span {
+    font-size: 16px;
+    position: relative;
+    display: block;
+    top: 70px;
+    text-align: center;
+  }
+  .bqsy i {
+    font-size: 30px;
+    position: relative;
+    display: block;
+    top: 90px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 590px) {
+  .bz:hover li {
+    width: 15%;
+  }
+  .bz li:hover {
+    width: 170px;
+  }
+}
+@media (max-width: 645px) {
+  .qiu {
+    width: 280px;
+    height: 280px;
+  }
+  .qiu::after {
+    width: 280px;
+    height: 280px;
+  }
+  .qiu::before {
+    width: 280px;
+    height: 280px;
+  }
+  .content {
+    width: 220px;
+    height: 250px;
+    top: 48px;
+  }
+}
+@media (max-width: 800px) {
+  .btow {
+    height: 800px;
+  }
+  .bq {
+    top: 50px;
+  }
+  .wz {
+    width: 100%;
+    top: 50px;
+    padding: 10px;
+  }
+}
+@media (max-width: 945px) {
+  .bq {
+    top: 180px;
+  }
+}
+
+@media (min-width: 1180px) {
+  .topba {
+    order: 1;
+    background-image: url(../Img/4.png);
+    background-size: contain;
+  }
+  .topbl {
+    order: 2;
+  }
+  .topbr {
+    order: 3;
+  }
+  .auto1 {
+    width: 902px;
+  }
+  @keyframes move {
+    0% {
+      clip-path: circle(4% at 39% 55%);
+    }
+    50% {
+      clip-path: circle(4% at 65% 65%);
+    }
+    100% {
+      clip-path: circle(4% at 39% 55%);
+    }
+  }
+}
+@media (max-width: 1180px) {
+  .auto {
+    width: 100%;
+  }
+}
+
+

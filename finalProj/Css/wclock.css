@@ -61,19 +61,6 @@
 }
 
 @media (max-width: 450px) {
-  .title {
-    padding-top: 40px;
-  }
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 8;
-    margin-top: -10px;
-  }
   .container {
     max-width: 100%;
     margin: auto;
@@ -91,6 +78,9 @@
   }
   .time small {
     font-size: 12px;
+  }
+  .wclock {
+    width: 80%;
   }
 }
 
